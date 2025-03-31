@@ -1,11 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import Header from './components/header'
+import Form from './components/Form'
 
 function App() {
   return (
-    <>
-    teste
-    </>
+    <div className="container">
+      <div className="main">
+        <Header/>
+        <Form/>
+      </div>
+    </div>
   )
 }
 
